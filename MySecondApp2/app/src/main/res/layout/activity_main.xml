@@ -5,25 +5,33 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <EditText
-        android:id="@+id/inputUang"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Masukkan jumlah uang"
-        android:inputType="number" />
-
-    <Button
-        android:id="@+id/btnSimpan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Simpan" />
-
     <TextView
-        android:id="@+id/txtHasil"
+        android:id="@+id/txtHello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total: 0"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp" />
+        android:text="Hello Mijann dari Java Android!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUbah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah Teks" />
+
+    <TextView
+        android:id="@+id/txtJgnklik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Jangan coba coba"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnTetap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jangan diklik" />
 
 </LinearLayout>
