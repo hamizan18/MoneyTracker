@@ -57,5 +57,28 @@
         android:textColor="#000000"
         android:padding="18dp" />
 
+    <EditText
+        android:id="@+id/inputCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ketik Disini"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/btnSetCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Teks" />
+
+    <TextView
+        android:id="@+id/teksBaru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
 </LinearLayout>
